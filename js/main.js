@@ -157,27 +157,30 @@ function nivelUno(){
     juego.llave = true;
     fondo = new Kinetic.Layer();
     /* Enemigos */
-    grupoAssets.add(new Enemigo(200, stage.getHeight()-75, imgEn));
+    grupoAssets.add(new Enemigo(200, stage.getHeight()-75/*425*/, imgEn));
     grupoAssets.add(new Enemigo(850, stage.getHeight()/3.9-60, imgEn));
     grupoAssets.add(new Enemigo(170, stage.getHeight()/3-60, imgEn));
-    grupoAssets.add(new Enemigo(1020, stage.getHeight()/-75, imgEn));
-    grupoAssets.add(new Enemigo(1120, stage.getHeight()/-75, imgEn));
-    grupoAssets.add(new Enemigo(1220, stage.getHeight()/-75, imgEn));
+    grupoAssets.add(new Enemigo(1020, stage.getHeight()/1.6-60, imgEn));
+    grupoAssets.add(new Enemigo(1220, stage.getHeight()/2.5-60, imgEn));
+    grupoAssets.add(new Enemigo(1520, stage.getHeight()-75, imgEn));
 
     /*Plataformas*/
     var piso = new Plataforma(0,stage.getHeight()-15, imgPlata);
     piso.setWidth(stage.getWidth()*2);
     grupoAssets.add(piso);
     grupoAssets.add(new Plataforma(20, stage.getHeight()/1.5, imgPlata));
-    grupoAssets.add(new Plataforma(190, stage.getHeight()/3, imgPlata));
+    grupoAssets.add(new Plataforma(180, stage.getHeight()/3, imgPlata));
     grupoAssets.add(new Plataforma(510, stage.getHeight()/1.6, imgPlata));
-    grupoAssets.add(new Plataforma(870, stage.getHeight()/3.9, imgPlata));
+    grupoAssets.add(new Plataforma(860, stage.getHeight()/3.9, imgPlata));
+    grupoAssets.add(new Plataforma(1020, stage.getHeight()/1.6, imgPlata));
+    grupoAssets.add(new Plataforma(1220, stage.getHeight()/2.5, imgPlata));
 
     /*Monedas*/
     grupoAssets.add(new Moneda(350, stage.getHeight()/3-130, imgMon));
     grupoAssets.add(new Moneda(650, stage.getHeight()/2-130, imgMon));
-    grupoAssets.add(new Moneda(80, stage.getHeight()/-80, imgMon));
-    grupoAssets.add(new Moneda(350, stage.getHeight()/3-130, imgMon));
+    grupoAssets.add(new Moneda(30, stage.getHeight()-480, imgMon));
+    grupoAssets.add(new Moneda(80, stage.getHeight()/1.5-50, imgMon));
+    grupoAssets.add(new Moneda(530, stage.getHeight()/5+130, imgMon));
     grupoAssets.add(new Moneda(910, stage.getHeight()/6, imgMon));
     grupoAssets.add(new Moneda(1220, stage.getHeight()-80, imgMon));
 
