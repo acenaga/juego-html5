@@ -6,4 +6,4 @@ Usando la libreria kinetic.js y preload.js de la suite create.js, se puede conse
 utilizando la POO en javascript, interaccion con el DOM y muchos conocimientos mas que permitiran a la larga
 generar los conocimientos necesarios para crear un juego propio.
 
-prueba de deploy automatico
+prueba de deploy automatico, fase 2
